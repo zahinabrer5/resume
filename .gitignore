@@ -1,0 +1,9 @@
+resume.tex
+
+out/*
+!out/*.pdf
+out/resume.pdf
+
+canva/
+old/
+other/

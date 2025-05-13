@@ -1,0 +1,319 @@
+%-------------------------
+% Resume in Latex
+% Author : Abdullah Zubair
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[T1]{fontenc}
+\usepackage{bookmark}
+\usepackage[super]{nth}
+\usepackage{minted}
+\usepackage{hyperref}
+\usemintedstyle{vs}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% get rid of annoying fancyhdr warning
+\setlength{\footskip}{5pt}
+
+% Set up hyperref to make links blue
+\hypersetup{
+  colorlinks = true, % Colours links instead of boxes
+  linkcolor = blue, % Colour for internal links
+  urlcolor = blue, % Colour for external URLs
+  citecolor = blue, % Colour for citations
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Abdullah Zubair} \\ \vspace{1pt}
+    \small \textit{Please message me on LinkedIn if you want my email or phone number} \\
+    \href{https://linkedin.com/in/zahinabrer}{\underline{linkedin.com/in/zahinabrer}} $|$
+    \href{https://github.com/zahinabrer5}{\underline{github.com/zahinabrer5}}
+    $|$ \href{https://leetcode.com/u/zahinabrer/}{\underline{leetcode.com/u/zahinabrer}}
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Volunteering Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Event Volunteer}{Ottawa, ON}
+      {Ottawa Uyghur Centre}{January \nth{1}, 2024}
+      \resumeItemListStart
+        \resumeItem{Helped organize the Ottawa Uyghur Centre's annual Qur'ān recitation contest}
+        \resumeItem{Greeted and ushered in visitors and contest participants}
+        \resumeItem{Answered questions of guests}
+        \resumeItem{Skills earned: social skills, management skills}
+      \resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Event Organizer \& Supervisor}{Ottawa, ON}
+      {Bangladesh Muslim Society}{August 2021}
+      \resumeItemListStart
+        \resumeItem{Helped host an online art contest}
+        \resumeItem{Supervised children aged 5 to 6 and answered questions via Zoom chat}
+        \resumeItem{Skills earned: leadership skills, supervision of young children}
+    \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+    %   {Southwestern University}{Georgetown, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+    %     \resumeItem{Developed a game in Java to test the generated dungeons}
+    %     \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+    %     \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+    %     \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+    %     \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Ottawa {\scriptsize(Current cGPA: 9.8)}}{Ottawa, ON}
+      {Honours Bachelor of Science in Computer Science}{Septemper 2024 -- Present}
+    \resumeSubheading
+      {Colonel By Secondary School}{Ottawa, ON}
+      {Cumulative Average above 90\%}{Septemper 2021 -- June 2024}
+      \resumeItemListStart
+        \resumeItem{Executive of Computing Club {\scriptsize(a.k.a. Competitive Programming Club)} in Grade 11 \& 12}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Ottawa Carleton Virtual Secondary School}{Ottawa, ON}
+      {Cumulative Average above 95\%}{Septemper 2020 -- June 2021}
+  \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Languages}{: Java, Python, C++, SQL (MariaDB), JavaScript (Node.js), TypeScript, HTML/CSS, LaTeX} \\
+      \textbf{Frameworks}{: Spring Boot, Angular, Django, WordPress, Bootstrap} \\
+      \textbf{Tools}{: Linux (Ubuntu \& Arch), Git, IntelliJ, Sublime Text, VS Code, PyCharm, CLion, Eclipse, Postman, DBeaver, phpMyAdmin, Vim} \\
+      \textbf{Libraries}{: JSoup, JDA (Java Discord API), BeautifulSoup4, Matplotlib, Python requests} \\
+      \textbf{Other Software}{: VirtualBox, VMWare, Google Docs, Microsoft Word, LibreOffice Writer, Google Sheets, LibreOffice Calc, \href{https://app.diagrams.net/}{draw.io (diagrams.net)}, Qalculate!, Photoshop, \href{https://photopea.com}{Photopea}, \href{https://canva.com}{Canva}}
+    }}
+ \end{itemize}
+
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Java (Basic) Certificate from HackerRank} $|$ \emph{No expiration date}}{Issued June \nth{21}, 2020}
+          \resumeItemListStart
+            \resumeItem{Credential ID: \mintinline{Java}{9FD9E98366BE}}
+            \resumeItem{Certification URL: \href{https://www.hackerrank.com/certificates/9fd9e98366be}{https://www.hackerrank.com/certificates/9fd9e98366be}}
+            \resumeItem{Please note that the HackerRank certificates are in my old name; I have a Canadian Name Change Certificate to prove my previous and current names}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{JavaScript (Basic) Certificate from HackerRank} $|$ \emph{No expiration date}}{Issued June \nth{21}, 2020}
+          \resumeItemListStart
+            \resumeItem{Credential ID: \mintinline{JavaScript}{92BE5847425F}}
+            \resumeItem{Certification URL: \href{https://www.hackerrank.com/certificates/92be5847425f}{https://www.hackerrank.com/certificates/92be5847425f}}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\href{https://github.com/zahinabrer5/SocialCreditBot}{\textbf{Social Credit Bot} $|$ \emph{JDA (Java Discord API)}}}{December 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{A Discord bot with a currency system ("social credit")}
+            \resumeItem{Commands include: \mintinline{Java}{/credit}, \mintinline{Java}{/leaderboard}, \mintinline{Java}{/profile}, \mintinline{Java}{/cat}, \mintinline{Java}{/rob}, \mintinline{Java}{/daily}}
+            \resumeItem{\textbf{Skills used/learned:} Java Discord API, building Discord bots, communicating with Discord's API, using multiple .csv files as a small database, using Jackson to parse JSON retrieved from HTTP requests}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/zahinabrer5/driving-spotter-backend}{\textbf{Driving Spotter} $|$ \emph{Spring Boot, React Native}}}{January 2025}
+          \resumeItemListStart
+            \resumeItem{Made for \textbf{uOttaHack 7 (2025)}}
+            \resumeItem{A mobile app that allows users to report parking infractions to 3-1-1 (concept)}
+            \resumeItem{During the hackathon, we managed to save the data to the database (MariaDB); We ran out of time to implement the final step of sending the data to 3-1-1}
+            \resumeItem{Backend: Java Spring Boot; Frontend: React Native}
+            \resumeItem{Responsibility: build the backend}
+            \resumeItem{\textbf{Skills used/learned:} Building a REST API with Spring Boot and communicating with other APIs (like GroqAI's Image OCR API to grab license plate text)}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/zahinabrer5/Poker}{\textbf{Poker (without gambling)} $|$ \emph{C++}}}{April 2024}
+          \resumeItemListStart
+            \resumeItem{Project for Grade 12 ICS4U Intro. to Comp. Sci. course (\textbf{grade: 95 to 100\%})}
+            \resumeItem{A 1-round console-based Texas hold 'em game \textbf{without} gambling (for some reason, poker was the only card game allowed for this assignment)}
+            \resumeItem{\textbf{Skills used/learned:} Practically applied theoretical OOP \& C++ concepts learned in class, like how to design C++ classes (in contrast to Java) and operator overloading}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/zahinabrer5/serpent}{\textbf{Serpent} $|$ \emph{Java Swing}}}{May 2023 -- June 2023}
+          \resumeItemListStart
+            \resumeItem{Final project (summative) for Grade 11 ICS3U Intro. to Comp. Sci. course (\textbf{grade: 95 to 100\%})}
+            \resumeItem{Another snake game, but this time multiplayer!}
+            \resumeItem{\textbf{Skills used/learned:} Animating and drawing graphics using Java Swing}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/zahinabrer5/zardle}{\textbf{Zardle} $|$ \emph{Java Swing}}}{February 2023 -- April 2023}
+          \resumeItemListStart
+            \resumeItem{Project for Grade 11 ICS3U Intro. to Comp. Sci. course (\textbf{grade: 95 to 100\%})}
+            \resumeItem{A Wordle clone made with Java Swing}
+            \resumeItem{Accepts keyboard input, and also includes a virtual/on-screen keyboard}
+            \resumeItem{\textbf{Skills used/learned:} Reading large text files in Java, building clean GUIs using Java Swing that can handle keyboard input}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/zahinabrer5/votenote}{\textbf{VoteNote} $|$ \emph{Django, Bootstrap, Material Design, Chart.js}}}{August 2022}
+          \resumeItemListStart
+            \resumeItem{Made for \textbf{AbraCadabra Hacks 2} hosted by MLH, in which it \textbf{won \nth{2} place}}
+            \resumeItem{A simple voting/polling web app built with Django}
+            \resumeItem{The backend (which was my focus) was made with Django}
+            \resumeItem{The frontend (which was my partner Pasindu's focus) was made with Bootstrap and Material Design}
+            \resumeItem{Once the user votes either yes or no, the app displays a beautiful graph showing current poll results using Chart.js}
+            \resumeItem{\textbf{Skills used/learned:} Learned how to track polls using users' IP addresses (each IP can vote only once), allowing for anonymous but accurate votes}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/zahinabrer5/snek}{\textbf{Snek} $|$ \emph{HTML5 Canvas, CSS, JavaScript}}}{January 2022 -- June 2022}
+          \resumeItemListStart
+            \resumeItem{Final project (summative) for Grade 10 ICS2O Intro. to Comp. Sci. course (\textbf{grade: 95 to 100\%})}
+            \resumeItem{This is a snake game that supports gameplay both with/without walls}
+            \resumeItem{Uses the HTML5 Canvas API for animation}
+            \resumeItem{Includes several levels (each new level increases the game FPS, thus making it harder)}
+            \resumeItem{\textbf{Skills used/learned:} Animating and drawing graphics using HTML/JavaScript and implementing a keyboard input buffer to reduce input lag}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/zahinabrer5/virowebs}{\textbf{Virowebs} $|$ \emph{HTML, CSS (Bootstrap), JavaScript}}}{November 2021}
+          \resumeItemListStart
+            \resumeItem{Made for \textbf{hackHer 2021}}
+            \resumeItem{Retrieves COVID-19 data for a given date and displays it in a table}
+            \resumeItem{\textbf{Skills used/learned:} Learned how to use \mintinline{JavaScript}{await fetch()} to make HTTP requests with vanilla JavaScript in the browser}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
