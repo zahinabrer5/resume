@@ -3,6 +3,7 @@ resume.tex
 out/*
 !out/*.pdf
 out/resume.pdf
+out/resume_public.pdf
 
 canva/
 old/
