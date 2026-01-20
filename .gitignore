@@ -1,5 +1,7 @@
 resume.tex
 
+*.bak
+
 out/*
 !out/*.pdf
 out/resume.pdf
